@@ -75,8 +75,8 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
       <header className="mb-8">
-        <title>0101IT211046</title>
-        <h1 className="text-3xl font-bold text-red-600 text-center">Backend Response Processor</h1>
+        <title></title>
+        <h1 className="text-3xl font-bold text-red-600 text-center">0101IT211046</h1>
       </header>
       <div className="max-w-2xl mx-auto bg-white p-6 rounded-md shadow-md">
         <label htmlFor="json-input" className="block text-sm font-medium text-gray-700">
