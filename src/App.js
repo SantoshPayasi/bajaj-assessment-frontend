@@ -6,7 +6,7 @@ const App = () => {
   const [jsonInput, setJsonInput] = useState("");
   const [error, setError] = useState("");
   const [response, setResponse] = useState(null);
-  const [selectedOptions, setSelectedOptions] = useState([]);
+  const [selectedOptions, setSelectedOptions] = useState(["All"]);
   const dropdownOptions = ["Numbers", "Alphabets", "Highest Lowercase Alphabet", "file_size", "file_type",  "All"];
 
   const validateJSON = (input) => {
@@ -98,7 +98,7 @@ const App = () => {
         </button>
         {error && <p className="text-red-500 mt-2">{error}</p>}
       </div>
-
+      <h1>Filters: </h1>
       {response && (
         <>
           <Dropdown
